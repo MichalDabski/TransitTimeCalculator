@@ -43,11 +43,11 @@ public class TestBase {
         }
     }
 
- //   @AfterClass
-  //  static void CleanUp() {
-   //     System.out.println("Closing driver.");
-   //     DriverManager.disposeDriver();
- //   }
+    @AfterClass
+    static void CleanUp() {
+        System.out.println("Closing driver.");
+        DriverManager.disposeDriver();
+    }
 }
 
 
